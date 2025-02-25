@@ -374,7 +374,6 @@ begin
     end
 
     always @ (*) begin
-        next_state = 5'dx;
         case (curr_state)
             IDLE: 
                 if(ap_signals[0])
